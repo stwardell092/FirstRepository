@@ -1,0 +1,13 @@
+#header {
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-top: 0%;
+    height: 240px;
+    border-width: 5px;
+    float: none;
+}
+
+html {
+    background-color: burlywood;
+}
