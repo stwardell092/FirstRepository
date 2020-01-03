@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Bootstrap's required meta tags. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- The Bootstrap stylesheet link for the CSS styling to work. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- Now I need to add in my own CSS stylesheet to be used over the top of Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- Here's the title/what is on the tab for the web browser -->
+    <title>Portforlio of Sam Wardell</title>
+
+
+
+  <!-- Just a test div to make sure my HTML and CSS files are even working in the first place. -->
+  <!-- <div id="frustratedtest">
+Is this shit even working?! 
+    </div> -->
+
+<!-- Now to try and get placeholder div's and shit in the HTML for the upcoming CSS stylization. -->
+<header id="header" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+
+  <!-- The blue box with Your Name in it -->
+  <div id="MyName" class="my-0 mr-md-auto box">
+    Sam Wardell
+  </div>
+
+  <!-- The navigation links to the right of Your Name -->
+  <!-- <nav class="navbar navbar-light"> -->
+     
+    
+    <!-- A completely unstructured and unfinished navagation bar. (just you wait and see this shit)
+        
+    <ul id="myNavbar">
+      <li><a href="#">List item 1 WHO</a></li>
+      <li><a href="#">List item 2 WHAT</a></li>
+      <li><a href="#">List item 3 WHERE</a></li>
+
+    </ul> -->
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+              <!-- It took a while to figure out how to put those tiny little lines inbetween the different links on the nav bar, but I eventually came up with giving a left border (as designed by Bootstrap) to the second and third items/links. That's what the <span> stuff is all about. -->
+              <span class="border-secondary border-left">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+              </span>
+              <span class="border-secondary border-left">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+              </span>
+      </ul>
+
+
+
+
+
+
+
+
+<!-- 
+  </nav> -->
+
+</header>
+</head>
+
+<body>
+
+  <div id="title">
+    About me
+  </div>
+
+  <br>
+
+
+
+  <img src="./assets/images/AhmedHR-HQ.gif" alt="Baseball player hitting a homerun." id="AhmedGif"
+    class="img-fluid">
+
+  <p id="paraOne" class="aboutMeText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, nobis. Eligendi, officia ratione sapiente consectetur molestiae ea earum ex quam voluptates, similique labore inventore illo blanditiis? Totam minima accusantium molestiae.</p>
+
+  <p id="paraTwo" class="aboutMeText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem natus deleniti dolores commodi repellendus corrupti sit dolore non illo, ex quas ratione facilis libero! Facilis tempora quos modi necessitatibus consequuntur!</p>
+
+  <p id="paraThree" class="aboutMeText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur culpa, impedit distinctio reprehenderit delectus accusamus sit facere? Vitae accusamus commodi ad temporibus tempora doloribus, quo iste! Exercitationem assumenda laborum sunt.</p>
+
+
+  <!-- Do I put the footer here in <body>? or afterwards in it's own thing which is outside of <body>? -->
+  <!-- <footer class="card-footer">
+    "Copyright something or another 2035??"
+  </footer> -->
+
+
+
+
+<!-- The Bootstrap JS scripts in order to add functionality to the page. -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+  <!-- BELOW IS WHAT I HAD BEEN WORKING ON WITH THE NAV BAR. IT REALLY DIDN'T WORK SO IT'S GOING TO BE EASIER TO JUST START FROM SCRATCH. 
+<nav class="">
+    <div class="">
+      <div class="">
+        <button type="" class="" data-toggle="" data-target="">
+          <span class="icon-bar">what the hell one</span>
+          <span class="icon-bar">what the hell two</span>
+          <span class="icon-bar">what the hell three</span>
+        </button>
+        <a class="navbar-brand" href="#">Me and no damn idea of whats going on.</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">WHO</a></li>
+          <li><a href="#">WHAT</a></li>
+          <li><a href="#">WHERE</a></li>
+        </ul>
+      </div>
+    </div>
+</nav> -->

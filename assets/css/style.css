@@ -1,0 +1,51 @@
+#frustratedtest {
+    background-color: darkgoldenrod;
+    font-size: 40px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#MyName {
+    font-size: 1.75rem;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+}
+
+#ahmedgif {
+    display: block;
+    block-size: 40%;
+}
+
+.img-fluid {
+    max-width: 40%;
+}
+
+.aboutMeText {
+    float: left;
+    inline-size: auto;
+}
+
+ul {
+    max-width: 960px;
+    float: center;
+    background-color: brown
+}
+
+body {
+    padding-left: ;
+    align-items: center!important;
+}
+
+html {
+    background-color: darkgray;
+}
+
+li {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
